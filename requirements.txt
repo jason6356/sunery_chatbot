@@ -1,0 +1,7 @@
+en-core-web-md @ https://github.com/explosion/spacy-models/releases/download/en_core_web_md-3.5.0/en_core_web_md-3.5.0-py3-none-any.whl
+spacy==3.5.3
+spacy-legacy==3.0.12
+spacy-loggers==1.0.4
+sklearn3==0.0.1
+Flask==2.2.3
+Flask-Cors==3.0.10
