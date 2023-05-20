@@ -7,7 +7,7 @@ import csv
 nlp = spacy.load('en_core_web_md')
 
 app = Flask(__name__)
-CORS(app)
+CORS(app, origins=['http://localhost:3000/'], methods=['GET','POST])
 
 # Define the route for the chatbot endpoint
 @app.route('/chatbot', methods=['POST'])
