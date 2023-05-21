@@ -5,3 +5,4 @@ spacy-loggers==1.0.4
 sklearn3==0.0.1
 Flask==2.2.3
 Flask-Cors==3.0.10
+scikit-learn==1.2.2
