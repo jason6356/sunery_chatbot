@@ -7,7 +7,7 @@ import csv
 nlp = spacy.load('en_core_web_md')
 
 app = Flask(__name__)
-CORS(app, origins=['*'], methods=['GET','POST]) 
+CORS(app, origins=['*'], methods=['GET','POST']) 
                                   
 @app.route('/')
 def hello_world():
